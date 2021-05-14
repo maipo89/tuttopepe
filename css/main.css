@@ -183,21 +183,21 @@ header  {
 }
 
 .icon1:hover  {
-    content: url(/images/Heart\ Icon\ Red.png);
+    content: url(/tuttopepe/images/Heart\ Icon\ Red.png);
 }
 
 .icon2:hover  {
-    content: url(/images/Account\ Icon\ Red.png);
+    content: url(/tuttopepe/images/Account\ Icon\ Red.png);
 }
 
 .icon3:hover  {
-    content: url(/images/Shopping\ Cart\ Icon\ Red.png);
+    content: url(/tuttopepe/images/Shopping\ Cart\ Icon\ Red.png);
     height: auto;
     width: 27px;
 }
 
 .icon4:hover  {
-    content: url(/images/Lens\ Logo\ Red.png);
+    content: url(/tuttopepe/images/Lens\ Logo\ Red.png);
 }
 
 /* Search Window, Account Window, Shopping Cart Window */ 
@@ -402,7 +402,7 @@ header  {
 .jewel, .shoes, .clothing, .bags, .new-arrivals1  {
     height: 300px;
     width: 300px;
-    background-image: url(/images/Jewel4.jpg);
+    background-image: url(/tuttopepe/images/Jewel4.jpg);
     background-size: cover;
     background-position: center center;
 }
@@ -413,20 +413,20 @@ header  {
 }
 
 .clothing  {
-    background-image: url(/images/clothing-2.jpg);
+    background-image: url(/tuttopepe/images/clothing-2.jpg);
 }
 
 .shoes  {
-    background-image: url(/images/shoes-1.jpg)
+    background-image: url(/tuttopepe/images/shoes-1.jpg)
 }
 
 .bags  {
-    background-image: url(/images/brown.bag.jpg);
+    background-image: url(/tuttopepe/images/brown.bag.jpg);
     margin-right: 70px;
 }
 
 .new-arrivals1  {
-    background-image: url(/images/new-arrivals-dress.jpg);
+    background-image: url(/tuttopepe/images/new-arrivals-dress.jpg);
 }
 
 .jewel, .shoes, .clothing, .new-arrivals1 {
@@ -484,7 +484,7 @@ header  {
 }
 
 .like-logo  {
-    background-image: url(/images/heart-logo.png);
+    background-image: url(/tuttopepe/images/heart-logo.png);
     background-position: center center;
     background-size: 20px;
     background-repeat: no-repeat;
@@ -509,7 +509,7 @@ header  {
 }
 
 .toggle-logo  {
-    background-image: url(/images/heart-red.png);
+    background-image: url(/tuttopepe/images/heart-red.png);
     animation: zoom-heart 0.3s linear;
 }
 
@@ -526,7 +526,7 @@ header  {
 }
 
 .like-logo:hover  {
-    content: url(/images/heart-red.png);
+    content: url(/tuttopepe/images/heart-red.png);
     height: auto;
     width: 22px;
 }
@@ -552,41 +552,41 @@ header  {
     transform: scale(1.1);
 }
 
-.background-image1  {background-image: url(/images/First\ Look\ 2.jpg);}
+.background-image1  {background-image: url(/tuttopepe/images/First\ Look\ 2.jpg);}
 
-.background-image2  {background-image: url(/images/Second\ Look\ 3.jpg);}
+.background-image2  {background-image: url(/tuttopepe/images/Second\ Look\ 3.jpg);}
 
-.background-image3  {background-image: url(/images/Third\ Look.jpg);}
+.background-image3  {background-image: url(/tuttopepe/images/Third\ Look.jpg);}
 
-.background-image4  {background-image: url(/images/Fourth\ Look.jpg);}
+.background-image4  {background-image: url(/tuttopepe/images/Fourth\ Look.jpg);}
 
-.background-image5  {background-image: url(/images/Fifth\ Look.jpg);}
+.background-image5  {background-image: url(/tuttopepe/images/Fifth\ Look.jpg);}
 
-.background-image7  {background-image: url(/images/Look\ Seven-2.jpg);}
+.background-image7  {background-image: url(/tuttopepe/images/Look\ Seven-2.jpg);}
 
-.background-image8  {background-image: url(/images/Look\ Height.jpg);}
+.background-image8  {background-image: url(/tuttopepe/images/Look\ Height.jpg);}
 
-.background-image9 {background-image: url(/images/Look\ Nine.jpg);}
+.background-image9 {background-image: url(/tuttopepe/images/Look\ Nine.jpg);}
 
-.background-image10  {background-image: url(/images/Look\ Ten.jpg);}
+.background-image10  {background-image: url(/tuttopepe/images/Look\ Ten.jpg);}
 
-.background-image11  {background-image: url(/images/Look\ Eleven.jpg);}
+.background-image11  {background-image: url(/tuttopepe/images/Look\ Eleven.jpg);}
 
-.background-image12  {background-image: url(/images/Look\ Twelve.jpg);}
+.background-image12  {background-image: url(/tuttopepe/images/Look\ Twelve.jpg);}
 
-.background-image13  {background-image: url(/images/Look\ 13-2.jpg);}
+.background-image13  {background-image: url(/tuttopepe/images/Look\ 13-2.jpg);}
 
-.background-image14  {background-image: url(/images/Look\ 14.jpg);}
+.background-image14  {background-image: url(/tuttopepe/images/Look\ 14.jpg);}
 
-.background-image15  {background-image: url(/images/Look\ 16.jpg);}
+.background-image15  {background-image: url(/tuttopepe/images/Look\ 16.jpg);}
 
-.background-image16  {background-image: url(/images/Look\ 18.jpg);}
+.background-image16  {background-image: url(/tuttopepe/images/Look\ 18.jpg);}
 
-.background-image17  {background-image: url(/images/Look\ 17.jpg);}
+.background-image17  {background-image: url(/tuttopepe/images/Look\ 17.jpg);}
 
-.background-image18  {background-image: url(/images/Look\ 19.jpg);}
+.background-image18  {background-image: url(/tuttopepe/images/Look\ 19.jpg);}
 
-.background-image19  {background-image: url(/images/Look\ 20.jpg);}
+.background-image19  {background-image: url(/tuttopepe/images/Look\ 20.jpg);}
 
 .descriptions  {
     display: flex;
@@ -610,16 +610,16 @@ header  {
 }
 
 .color-container2  {
-    background-image: url(/images/Jeans\ Texture.jpg);
+    background-image: url(/tuttopepe/images/Jeans\ Texture.jpg);
 }
 
 .color-container3  {
-    background-image: url(/images/Flowers\ Texture.jpg);
+    background-image: url(/tuttopepe/images/Flowers\ Texture.jpg);
     background-size: 60px;
 }
 
 .color-container4  {
-    background-image: url(/images/Jeans-Texture2.jpg);
+    background-image: url(/tuttopepe/images/Jeans-Texture2.jpg);
     background-size: 100px;
 } 
 
@@ -633,7 +633,7 @@ header  {
 }
 
 .color-container6  {
-    background-image: url(/images/Stars\ Fantasy.jpg);
+    background-image: url(/tuttopepe/images/Stars\ Fantasy.jpg);
 }
 
 .color-container7  {
@@ -641,7 +641,7 @@ header  {
 }
 
 .color-container8  {
-    background-image: url(/images/Dot\ Print.jpg);
+    background-image: url(/tuttopepe/images/Dot\ Print.jpg);
 }
 
 .color-container9  {
@@ -649,7 +649,7 @@ header  {
 }
 
 .color-container10  {
-    background-image: url(/images/Gray\ Jeans.jpg);
+    background-image: url(/tuttopepe/images/Gray\ Jeans.jpg);
 }
 
 .color-container11  {
@@ -657,7 +657,7 @@ header  {
 }
 
 .color-container12  {
-    background-image: url(/images/Stipes.jpg);
+    background-image: url(/tuttopepe/images/Stipes.jpg);
 }
 
 .color-container13  {
@@ -665,11 +665,11 @@ header  {
 }
 
 .color-container14  {
-    background-image: url(/images/Jeans\ Texture.jpg);
+    background-image: url(/tuttopepe/images/Jeans\ Texture.jpg);
 }
 
 .color-container15  {
-    background-image: url(/images/Flowers\ Texture\ 2.jpg);
+    background-image: url(/tuttopepe/images/Flowers\ Texture\ 2.jpg);
 }
 
 .section-floral-image  {
@@ -707,15 +707,15 @@ header  {
 }
 
 .background-dress2  {
-    background-image: url(/images/Sixth\ Look2.jpg);
+    background-image: url(/tuttopepe/images/Sixth\ Look2.jpg);
 }
 
 .background-dress3  {
-    background-image: url(/images/Look\ 14.jpg);
+    background-image: url(/tuttopepe/images/Look\ 14.jpg);
 }
 
 .background-dress4  {
-    background-image: url(/images/Look\ 15.jpg);
+    background-image: url(/tuttopepe/images/Look\ 15.jpg);
 }
 
 .background-dress2:hover, .background-dress4:hover  {
@@ -727,11 +727,11 @@ header  {
 }
 
 .background-dress2:hover  {
-    background-image: url(/images/Sixth\ Look.jpg)
+    background-image: url(/tuttopepe/images/Sixth\ Look.jpg)
 }
 
 .background-dress4:hover  {
-    background-image: url(/images/Look\ 15-2.jpg);
+    background-image: url(/tuttopepe/images/Look\ 15-2.jpg);
 }
 
 .subtitle, .subtitle2  {
@@ -1313,163 +1313,163 @@ form  {
 }
 
 .albania  {
-    background-image: url(/images/Albania.png);
+    background-image: url(/tuttopepe/images/Albania.png);
 }
 
 .austria  {
-    background-image: url(/images/Austria.png);
+    background-image: url(/tuttopepe/images/Austria.png);
 }
 
 .belgium  {
-    background-image: url(/images//Belgium.png);
+    background-image: url(/tuttopepe/images//Belgium.png);
 }
 
 .brazil  {
-    background-image: url(/images/Brazil.png);
+    background-image: url(/tuttopepe/images/Brazil.png);
 }
 
 .bulgaria  {
-    background-image: url(/images/Bulgaria.png);
+    background-image: url(/tuttopepe/images/Bulgaria.png);
 }
 
 .croatia  {
-    background-image: url(/images/Croatia.png);
+    background-image: url(/tuttopepe/images/Croatia.png);
 }
 
 .cyprus  {
-    background-image: url(/images/Cyprus.png);
+    background-image: url(/tuttopepe/images/Cyprus.png);
 }
 
 .czech-republic  {
-    background-image: url(/images/Czech\ Reublic.png);
+    background-image: url(/tuttopepe/images/Czech\ Reublic.png);
 }
 
 .denmark  {
-    background-image: url(/images/Denmark.png);
+    background-image: url(/tuttopepe/images/Denmark.png);
 }
 
 .estonia  {
-    background-image: url(/images/Estonia.png);
+    background-image: url(/tuttopepe/images/Estonia.png);
 }
 
 .finland  {
-    background-image: url(/images/Finland.png);
+    background-image: url(/tuttopepe/images/Finland.png);
 }
 
 .france  {
-    background-image: url(/images/France.webp);
+    background-image: url(/tuttopepe/images/France.webp);
 }
 
 .germany  {
-    background-image: url(/images/Germany.png);
+    background-image: url(/tuttopepe/images/Germany.png);
 }
 
 .gibalter  {
-    background-image: url(/images/Gibalter.png);
+    background-image: url(/tuttopepe/images/Gibalter.png);
 }
 
 .greece  {
-    background-image: url(/images/Greece.png);
+    background-image: url(/tuttopepe/images/Greece.png);
 }
 
 .hungary  {
-    background-image: url(/images/Hungary.png);
+    background-image: url(/tuttopepe/images/Hungary.png);
 }
 
 .ireland  {
-    background-image: url(/images/Ireland.webp);
+    background-image: url(/tuttopepe/images/Ireland.webp);
 }
 
 .italy  {
-    background-image: url(/images/Italian\ Flag.png);
+    background-image: url(/tuttopepe/images/Italian\ Flag.png);
 }
 
 .japan  {
-    background-image: url(/images/Japan.png);
+    background-image: url(/tuttopepe/images/Japan.png);
 }
 
 .latvia  {
-    background-image: url(/images/Latvia.png);
+    background-image: url(/tuttopepe/images/Latvia.png);
 }
 
 .liechtenstein  {
-    background-image: url(/images/Liechstein.png);
+    background-image: url(/tuttopepe/images/Liechstein.png);
 }
 
 .lituania  {
-    background-image: url(/images/Lithuania.png);
+    background-image: url(/tuttopepe/images/Lithuania.png);
 }
 
 .luxembourg  {
-    background-image: url(/images/Luxembourg.png);
+    background-image: url(/tuttopepe/images/Luxembourg.png);
 }
 
 .malta  {
-    background-image: url(/images/Malta.png);
+    background-image: url(/tuttopepe/images/Malta.png);
 }
 
 .monaco  {
-    background-image: url(/images/Monaco.png);
+    background-image: url(/tuttopepe/images/Monaco.png);
 }
 
 .netherlands  {
-    background-image: url(/images/Netherlands.png);
+    background-image: url(/tuttopepe/images/Netherlands.png);
 }
 
 .norway  {
-    background-image: url(/images/Norway.png);
+    background-image: url(/tuttopepe/images/Norway.png);
 }
 
 .poland  {
-    background-image: url(/images/Poland.png);
+    background-image: url(/tuttopepe/images/Poland.png);
 }
 
 .portugal  {
-    background-image: url(/images/Portugal.png);
+    background-image: url(/tuttopepe/images/Portugal.png);
 }
 
 .romania  {
-    background-image: url(/images/Romania.webp);
+    background-image: url(/tuttopepe/images/Romania.webp);
 }
 
 .russia  {
-    background-image: url(/images/Russia.png);
+    background-image: url(/tuttopepe/images/Russia.png);
 }
 
 .slovakia  {
-    background-image: url(/images/Slovakia.png);
+    background-image: url(/tuttopepe/images/Slovakia.png);
 }
 
 .slovenia  {
-    background-image: url(/images/Slovenia.png);
+    background-image: url(/tuttopepe/images/Slovenia.png);
 }
 
 .spain  {
-    background-image: url(/images/Spain.webp);
+    background-image: url(/tuttopepe/images/Spain.webp);
 }
 
 .sweden  {
-    background-image: url(/images/Sweden.png);
+    background-image: url(/tuttopepe/images/Sweden.png);
 }
 
 .switzerland  {
-    background-image: url(/images/Switzerland.png);
+    background-image: url(/tuttopepe/images/Switzerland.png);
 }
 
 .turkey  {
-    background-image: url(/images/Turkey.png);
+    background-image: url(/tuttopepe/images/Turkey.png);
 }
 
 .ukraine  {
-    background-image: url(/images/Ukraine.png);
+    background-image: url(/tuttopepe/images/Ukraine.png);
 }
 
 .united-kingdom  {
-    background-image: url(/images/United\ Kingdom.png);
+    background-image: url(/tuttopepe/images/United\ Kingdom.png);
 }
 
 .united-states  {
-    background-image: url(/images/United\ States.png);
+    background-image: url(/tuttopepe/images/United\ States.png);
 }
 
 .x-logo-shipto-banner  {
@@ -2558,15 +2558,15 @@ form  {
     }
 
     .background-image15  {
-        background-image: url(/images/black-bag.jpg);
+        background-image: url(/tuttopepe/images/black-bag.jpg);
     }
 
     .background-image17  {
-        background-image: url(/images/maroon-bag.jpg);
+        background-image: url(/tuttopepe/images/maroon-bag.jpg);
     }
 
     .background-image18  {
-        background-image: url(/images/little-maroon-bag.jpg);
+        background-image: url(/tuttopepe/images/little-maroon-bag.jpg);
     }
 
     .child-bags::before  {
@@ -3337,15 +3337,15 @@ form  {
     }
 
     .background-image15  {
-        background-image: url(/images/black-bag.jpg);
+        background-image: url(/tuttopepe/images/black-bag.jpg);
     }
 
     .background-image17  {
-        background-image: url(/images/maroon-bag.jpg);
+        background-image: url(/tuttopepe/images/maroon-bag.jpg);
     }
 
     .background-image18  {
-        background-image: url(/images/little-maroon-bag.jpg);
+        background-image: url(/tuttopepe/images/little-maroon-bag.jpg);
     }
 
     .child-bags::before  {
