@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutto-Pepe</title>
+    
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+</head>
+<body>
+    
+    <!-- Header -->
+
+    <header class="header" id="header">
+        <div class="logo-container" id="logo-container">
+            <div class="ship-container">
+                <p class="ship-text">Ship to</p>
+                <img class="flag-italy cursor" height="auto" width="20px" src="/images/Italian Flag.png" alt="Italian Flag Icon">
+            </div>
+            <a href="/index.html"><img id="logo" class="logo-tutto-pepe" height="auto" width="180px" src="/images/Logo Tutto Pepe 4.png" alt="Logo Tutto Pepe"></a>
+            <nav class= "icon-container">
+                <img class= "icon1 cursor" src="/images/Heart Logo 2.png" alt="Heart Icon">
+                <img id="account-icon" class= "icon2 cursor" src="/images/Account Icon2.png" alt="Account Icon">
+                <img id="shopping-cart-icon" class= "icon3 cursor" src="/images/Shopping Cart Icon.png" alt="Shopping Cart">
+                <img id="search-icon" class= "icon4 cursor" src="/images/Lens Logo.png" alt="Lens Icon">
+            </nav>
+        </div>
+        <div class="central-bar">
+            <nav class="options-container">
+                <a id="accessories" class="text-options" href="/page/accessories.html">Accessories</a>
+                <hr />
+                <a id="shoes" class="text-options" href="/page/shoes.html">Shoes</a>
+                <hr />
+                <a id="clothing" class="text-options" href="/page/pants-and-shorts.html">Clothing</a>
+                <hr />
+                <a id="bags" class="text-options" href="/page/bags.html">Bags</a>
+                <hr />
+                <a id="new-arrivals" class="text-options new-arrivals" href="/page/new-arrivals.html">New Arrivals</a>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Search Window -->
+
+    <div id="search-window" class="search-window">
+        <div class="container-search-window">
+            <img id="close-search" class="close-tab" width="20x" height="20px" src="/images/x-logo-red.png" alt="X Logo">
+            <nav class= "navigator-icons">
+                <img class= "hide-icon heart-icon cursor" src="/images/Heart Icon Red.png" alt="Heart Icon">
+                <img id="account-icon-search" class= "hide-icon cursor account-icon" src="/images/Account Icon Red.png" alt="Account Icon">
+                <img id="shopping-cart-icon-search" class="hide-icon cursor shopping-cart-icon" src="/images/Shopping Cart Icon Red.png" alt="Shopping Cart">
+                <img class="hide-icon cursor" height="auto" width="25px" src="/images/Lens Logo Red.png" alt="Lens Icon">
+            </nav>
+        </div>
+        <div class="search-bar-container">
+            <div class= "search-bar1">
+                <img class="lens-logo cursor" width="20px" height="auto" src="/images/Lens Logo Red.png" alt="Lens Logo">
+                <input class="input-search" type="text" class="search" id="search" name="search" placeholder="Search"/>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Account Window -->
+
+    <div id="account-window" class="account-window">
+        <div class="container-account-window">
+            <img id="close-account" class="close-tab cursor" width="20x" height="20px" src="/images/x-logo-red.png" alt="X Logo">
+            <nav class= "navigator-icons">
+                <img class= "heart-icon cursor" src="/images/Heart Icon Red.png" alt="Heart Icon">
+                <img class= "account-icon cursor" src="/images/Account Icon Red.png" alt="Account Icon">
+                <img class= "shopping-cart-icon cursor" id="account-shopping-cart-icon" src="/images/Shopping Cart Icon Red.png" alt="Shopping Cart">
+                <img class="cursor" id="account-search-icon" height="auto" width="25px" src="/images/Lens Logo Red.png" alt="Lens Icon">
+            </nav>
+        </div>
+        <div class="container-button">
+            <button class="button-register">Register</button>
+            <div class="line-red"></div>
+            <button class="button-register2">Log In</button>
+        </div>
+    </div>
+    
+    <!-- Shopping Cart Window --> 
+
+    <div id="shopping-cart-window" class="shopping-cart-window">
+        <div class="container-shopping-cart-window">
+            <img id="close-shopping-cart" class="close-tab cursor" width="20x" height="20px" src="/images/x-logo-red.png" alt="X Logo">
+            <nav class= "navigator-icons">
+                <img class= "hide-icon heart-icon cursor" src="/images/Heart Icon Red.png" alt="Heart Icon">
+                <img class= "hide-icon account-icon cursor" id="shopping-cart-account-icon" src="/images/Account Icon Red.png" alt="Account Icon">
+                <img class= "hide-icon shopping-cart-icon cursor" src="/images/Shopping Cart Icon Red.png" alt="Shopping Cart">
+                <img class= "hide-icon cursor" id="shopping-cart-search-icon" height="auto" width="25px" src="/images/Lens Logo Red.png" alt="Lens Icon">
+            </nav>
+        </div>
+        <div class="shopping-cart-message">
+            <p>YOU HAVE NO ITEMS IN YOUR SHOPPING CART.</p>
+        </div>
+    </div>
+    
+    <!-- Header Responsive -->
+
+    <div id="header-responsive" class="header-responsive">
+        <div id="red-bar" class="red-bar">
+            <p class="free-shipping">Free Shipping on Order Over 100 €</p>
+        </div>
+        <div class="logo-container" id="logo-container">
+            <nav class= "icon-container1">
+                <div id="hamburger-menu" class="hamburger-menu">
+                    <img class="hamburger-image" height="auto" width="25px" src="/images/Phone Responsive Icon.png" alt="Hamburger Menù">
+                </div>
+                <img id="search-icon-responsive" class= "icon4 cursor" src="/images/Lens Logo.png" alt="Lens Icon">
+            </nav>
+            <a href="/index.html"><img id="logo" class="logo-tutto-pepe cursor" height="auto" width="140px" src="/images/Logo Tutto Pepe 4.png" alt="Logo Tutto Pepe"></a>
+            <nav class= "icon-container">
+                <img class="icon1 cursor" src="/images/Heart Logo 2.png" alt="Heart Icon">
+                <img id="shopping-cart-responsive" class="icon3 cursor" src="/images/Shopping Cart Icon.png" alt="Shopping Cart">
+            </nav>
+        </div>
+    </div>
+
+        <!-- When Hover Open Accessories Window -->
+
+        <div id="area-accessories" class="area-container">
+            <div class="area-accessories">
+                <div class="container-area">
+                    <div class="child-area">
+                        <a class="text-options2" href="/page/sunglasses.html">Sunglasses</a>
+                        <a class="text-options2" href="/page/belts.html">Belts</a>
+                        <a class="text-options2" href="/page/necklaces.html">Necklaces</a>
+                        <a class="text-options2" href="/page/earrings.html">Earrings</a>
+                        <a class="text-options2" href="/page/bracelets.html">Bracelets</a>
+                    </div>
+                    <div class="vertical-line"></div>
+                </div>
+                <div class="jewel"></div>
+            </div>
+        </div>
+        
+        <!-- When Hover Open Shoes Window -->
+
+        <div id="area-accessories1" class="area-container1">
+            <div class="area-shoes">
+                <div class="container-area">
+                    <div class="child-area">
+                        <a class="text-options2" href="/page/sneakers.html">Sneakers</a>
+                        <a class="text-options2" href="/page/boots.html">Boots</a>
+                        <a class="text-options2" href="/page/heels.html">Heels</a>
+                        <a class="text-options2" href="/page/espedrillas.html">Espedrillas</a>
+                        <a class="text-options2" href="/page/sliders.html">Sliders</a>
+                    </div>
+                    <div class="vertical-line"></div>
+                </div>
+                <div class="shoes"></div>
+            </div>
+        </div>
+                
+        <!-- When Hover Open Clothing Window -->
+
+        <div id="area-accessories2" class="area-container2">
+            <div class="area-clothing">
+                <div class="container-area">
+                    <div class="child-area">
+                        <a class="text-options2" href="/page/t-shirt-and-tops.html">T-Shirt & Tops</a>
+                        <a class="text-options2" href="/page/dresses.html">Dresses</a>
+                        <a class="text-options2" href="/page/pants-and-shorts.html">Pants & Shorts</a>
+                        <a class="text-options2" href="/page/skirts.html">Skirts</a>
+                        <a class="text-options2" href="/page/lingerie.html">Lingerie</a>
+                        <a class="text-options2" href="/page/jackets.html">Jackets</a>
+                    </div>
+                    <div class="vertical-line2"></div>
+                </div>
+                <div class="clothing"></div>
+            </div>
+        </div>
+                
+        <!-- When Hover Open Bags Window -->
+
+        <div id="area-accessories3" class="area-container3">
+            <div class="area-bags">
+                <div class="container-area">
+                    <div class="child-area">
+                        <a class="text-options2" href="/page/handbags.html">Handbags</a>
+                        <a class="text-options2" href="/page/clutch.html">Clutch</a>
+                        <a class="text-options2" href="/page/shoulder-bags.html">Shoulder Bags</a>
+                        <a class="text-options2" href="/page/tote-bags.html">Tote Bags</a>
+                        <a class="text-options2" href="/page/mini-bags.html">Mini Bags</a>
+                    </div>
+                    <div class="vertical-line"></div>
+                </div>
+                <div class="bags"></div>
+            </div>
+        </div>
+        
+        <!-- When Hover Open New-Arrivals Window -->
+
+        <div id="area-accessories4" class="area-container4">
+            <div class="area-newarrivals">
+                <div class="container-area">
+                    <div class="child-area">
+                        <a class="text-options2" href="/page/fall-winter-2021.html">Fall/Winter 2021</a>
+                        <a class="text-options2" href="/page/beachwear.html">Beachwear</a>
+                        <a class="text-options2" href="/page/sale.html">Sale</a>
+                    </div>
+                    <div class="vertical-line"></div>
+                </div>
+                <div class="new-arrivals1"></div>
+            </div>
+        </div>
+    <main>
+                
+        <!-- Filter Section -->
+
+        <section class="section-filter">
+            <div id="filter-window" class="filter-window">
+                <p class="text-color">color</p>
+                <div class="color-section-container">
+                    <div class="color-square"></div>
+                    <div class="color-square"></div>
+                    <div class="color-square"></div>
+                    <div class="color-square"></div>
+                    <div class="color-square"></div>
+                    <div class="color-square"></div>
+                    <div class="color-square"></div>
+                    <div class="color-square"></div>
+                    <div class="color-square"></div>
+                    <div class="color-square"></div>
+                    <div class="color-square"></div>
+                    <div class="color-square"></div>
+                </div>
+                <p class="text-color">size</p>
+                <div class="filter-size">
+                    <div class="filter-size-child">
+                        <p class="size-number">36</p>
+                        <p class="size-number">37</p>
+                        <p class="size-number">38</p>
+                        <p class="size-number">39</p>
+                        <p class="size-number">40</p>
+                        <p class="size-number">41</p>
+                    </div>
+                </div>
+                <div class="button-close-container">
+                    <button id="close-button" class="button-close">Close</button>
+                </div>
+            </div>
+            
+            <!-- Sort By Window -->
+
+            <div id="sortby-window" class="sortby-window">
+                <div class="position-price">
+                    <p class="position-price-text text-position">Position</p>
+                    <p class="position-price-text text-price">Price</p>
+                </div>
+                <div class="button-close-container close-button-margin">
+                    <button id="close-button1" class="button-close">Close</button>
+                </div>
+            </div>
+            <div class="first-line1 hide-first-line1">
+                <div class="filter">
+                    <p id="filter1" class="margin-zero">Filter</p>
+                    <img id="arrow-filter1" height="9px" class="cursor" width="auto" src="/images/arrow-2.png" alt="Arrow Down">
+                </div>
+                <div class="sortby">
+                    <p id="sortby1" class="margin-zero">Sort By</p>
+                    <img id="arrow-sortby1" height="9px" class="cursor" width="auto" src="/images/arrow-2.png" alt="Arrow Down">
+                </div>
+            </div>
+            <div class="title-page-container hide-title-page">
+                <div class="first-line2">
+                    <a class="text-first-line" href="/index.html">Home</a>
+                    <p class="margin-zero">-</p>
+                    <a class="text-first-line" href="/page/shoes.html">Shoes</a>
+                    <p class="margin-zero">-</p>
+                    <p class="color-text-first" href="/page/sliders.html">Sliders</p>
+                </div>
+                <div class="first-line3">
+                    <div class="filter">
+                        <p id="filter" class="margin-zero">Filter</p>
+                        <img id="arrow-filter" height="9px" class="cursor" width="auto" src="/images/arrow-2.png" alt="Arrow Down">
+                    </div>
+                    <div class="sortby">
+                        <p id="sortby" class="margin-zero">Sort By</p>
+                        <img id="arrow-sortby" height="9px" class="cursor" width="auto" src="/images/arrow-2.png" alt="Arrow Down">
+                    </div>
+                </div>
+            </div>
+                                   
+            <!-- Object Section -->
+
+            <p class="title-pages">Sliders</p>
+
+            <ul class="clothes-container margin-bottom-container">
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image1" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>Denim Dungaree Shorts</h2>
+                        <h3>34,90 €</h3>
+                        <h4>Color: White</h4>
+                        <div class= "color-container color-container1"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image2" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>Balloon Leg Denim Shorts</h2>
+                        <h3>29,90 €</h3>
+                        <h4>Color: Blue</h4>
+                        <div class= "color-container color-container2"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child change-logo">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image11" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>Mini Skirt with Paillettes Details</h2>
+                        <h3>29,90 €</h3>
+                        <h4>Color: Light-Blue</h4>
+                        <div class= "color-container4 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child ">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image3" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>Asymmetric Floral Mini Skirt</h2>
+                        <h3>29,90 €</h3>
+                        <h4>Fantasy: Floral</h4>
+                        <div class= "color-container3 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image5" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>White T-Shirt with Laces</h2>
+                        <h3>19,90 €</h3>
+                        <h4>Color: White</h4>
+                        <div class= "color-container5 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image4" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>Stars Print Tank Top</h2>
+                        <h3>19,90 €</h3>
+                        <h4>Fantasy: Stars</h4>
+                        <div class= "color-container6 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image12" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>Black T-Shirt with Paillettes Details</h2>
+                        <h3>19,90 €</h3>
+                        <h4>Color: Black</h4>
+                        <div class= "color-container7 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image10" href="/page/second-page.html"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>Mini Dress Tank Top Dot Print</h2>
+                        <h3>29,90 €</h3>
+                        <h4>Fantasy: Dot Print</h4>
+                        <div class= "color-container8 color-container"></div>.
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image8" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>High Waisted Beige Trousers</h2>
+                        <h3>39,90 €</h3>
+                        <h4>Color: Beige</h4>
+                        <div class= "color-container9 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image9" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>High Waisted Skinny Jeans</h2>
+                        <h3>35,90 €</h3>
+                        <h4>Color: Gray</h4>
+                        <div class= "color-container10 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image7" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>Black Cargo Trousers</h2>
+                        <h3>39,90 €</h3>
+                        <h4>Color: Black</h4>
+                        <div class= "color-container11 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image13" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2 class="skinny">Skinny Jeans Black & White Stripes</h2>
+                        <h3>39,90 €</h3>
+                        <h4>Fantasy: Stripes</h4>
+                        <div class= "color-container12 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image8" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>High Waisted Beige Trousers</h2>
+                        <h3>39,90 €</h3>
+                        <h4>Color: Beige</h4>
+                        <div class= "color-container9 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image9" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>High Waisted Skinny Jeans</h2>
+                        <h3>35,90 €</h3>
+                        <h4>Color: Gray</h4>
+                        <div class= "color-container10 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image7" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>Black Cargo Trousers</h2>
+                        <h3>39,90 €</h3>
+                        <h4>Color: Black</h4>
+                        <div class= "color-container11 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image13" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2 class="skinny">Skinny Jeans Black & White Stripes</h2>
+                        <h3>39,90 €</h3>
+                        <h4>Fantasy: Stripes</h4>
+                        <div class= "color-container12 color-container"></div>
+                    </div>
+                </li>
+            </ul>
+            
+            <!-- Show More -->
+
+            <ul id="hide-clothes" class="hide-clothes clothes-container">
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image1" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>Denim Dungaree Shorts</h2>
+                        <h3>34,90 €</h3>
+                        <h4>Color: White</h4>
+                        <div class= "color-container color-container1"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image2" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>Balloon Leg Denim Shorts</h2>
+                        <h3>29,90 €</h3>
+                        <h4>Color: Blue</h4>
+                        <div class= "color-container color-container2"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child change-logo hide-clothes">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image11" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>Mini Skirt with Paillettes Details</h2>
+                        <h3>29,90 €</h3>
+                        <h4>Color: Light-Blue</h4>
+                        <div class= "color-container4 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image3" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>Asymmetric Floral Mini Skirt</h2>
+                        <h3>29,90 €</h3>
+                        <h4>Fantasy: Floral</h4>
+                        <div class= "color-container3 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image5" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>White T-Shirt with Laces</h2>
+                        <h3>19,90 €</h3>
+                        <h4>Color: White</h4>
+                        <div class= "color-container5 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image4" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>Stars Print Tank Top</h2>
+                        <h3>19,90 €</h3>
+                        <h4>Fantasy: Stars</h4>
+                        <div class= "color-container6 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image12" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>Black T-Shirt with Paillettes Details</h2>
+                        <h3>19,90 €</h3>
+                        <h4>Color: Black</h4>
+                        <div class= "color-container7 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image10" href="/page/second-page.html"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>Mini Dress Tank Top Dot Print</h2>
+                        <h3>29,90 €</h3>
+                        <h4>Fantasy: Dot Print</h4>
+                        <div class= "color-container8 color-container"></div>.
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image8" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>High Waisted Beige Trousers</h2>
+                        <h3>39,90 €</h3>
+                        <h4>Color: Beige</h4>
+                        <div class= "color-container9 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image9" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>High Waisted Skinny Jeans</h2>
+                        <h3>35,90 €</h3>
+                        <h4>Color: Gray</h4>
+                        <div class= "color-container10 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image7" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>Black Cargo Trousers</h2>
+                        <h3>39,90 €</h3>
+                        <h4>Color: Black</h4>
+                        <div class= "color-container11 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image13" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2 class="skinny">Skinny Jeans Black & White Stripes</h2>
+                        <h3>39,90 €</h3>
+                        <h4>Fantasy: Stripes</h4>
+                        <div class= "color-container12 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image8" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>High Waisted Beige Trousers</h2>
+                        <h3>39,90 €</h3>
+                        <h4>Color: Beige</h4>
+                        <div class= "color-container9 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image9" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>High Waisted Skinny Jeans</h2>
+                        <h3>35,90 €</h3>
+                        <h4>Color: Gray</h4>
+                        <div class= "color-container10 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image7" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2>Black Cargo Trousers</h2>
+                        <h3>39,90 €</h3>
+                        <h4>Color: Black</h4>
+                        <div class= "color-container11 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image13" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2 class="skinny">Skinny Jeans Black & White Stripes</h2>
+                        <h3>39,90 €</h3>
+                        <h4>Fantasy: Stripes</h4>
+                        <div class= "color-container12 color-container"></div>
+                    </div>
+                </li>
+
+                <li class="clothes-child">
+                    <div class="like-logo">
+                    </div>
+                    <div class= "background">
+                        <a class="background-image background-image13" href="#"></a>
+                    </div>
+                    <div class= "descriptions">
+                        <h2 class="skinny">Skinny Jeans Black & White Stripes</h2>
+                        <h3>39,90 €</h3>
+                        <h4>Fantasy: Stripes</h4>
+                        <div class= "color-container12 color-container"></div>
+                    </div>
+                </li>
+            </ul>
+
+            <p id="show-more" class="show-more">show more</p>
+        </section>
+                        
+        <!-- Subscribe Section -->
+
+        <section class="subscribe-container">
+            <div class="subscribe-child">
+                <p class="newsletter">Do you want to subscribe to our newsletter?</p>
+                <input type="text" class="input" id="youremail" name="youremail" placeholder="Your E-mail Address"/>
+                <button class="subscribebutton">Subscribe</button>
+            </div>
+        </section>
+    </main>
+                
+    <!-- Footer -->
+
+    <footer>
+        <section class= "container-followus">
+            <div class="costumerservice-container">
+                <div class="costumerservice-child">
+                    <h5>Customer Service</h5>
+                    <div class="contactus-container">
+                        <a class="text-contactus" href="#">Contact Us</a>
+                        <a class="text-contactus" href="#">Shipping</a>
+                        <a class="text-contactus" href="#">Returns</a>
+                        <a class="text-contactus" href="#">Legal Area</a>
+                        <a class="text-contactus" href="#">Privacy Policy</a>
+                    </div>
+                </div>
+                <div class="costumerservice-child">
+                    <h5>Shop</h5>
+                    <div class="contactus-container">
+                        <a class="text-contactus" href="/page/accessories.html">Accessories</a>
+                        <a class="text-contactus" href="/page/clothing.html">Clothing</a>
+                        <a class="text-contactus" href="/page/bags.html">Bags</a>
+                        <a class="text-contactus" href="/page/shoes.html">Shoes</a>
+                        <a class="text-contactus" href="/page/new-arrivals.html">New Arrivals</a>
+                    </div>
+                </div>
+            </div>
+            <div class="costumerservice-container2">
+                <div class="child-payment">
+                    <h5>Follow us on</h5>
+                    <div class="logo-social">
+                        <a href="https://www.instagram.com/tuttopepe.matelica/"><img height="auto" width="32px" src="/images/instagram-logo.png" alt="Instagram Logo"></a>
+                        <a href="#"><img height="auto" width="34px" src="/images/Logo Facebook.png" alt="Facebook Logo"></a>
+                    </div>
+                </div>
+                <div class="container-payment">
+                    <div class="child-payment">
+                        <h5>Payment Methods</h5>
+                        <div class="logo-credit-card">
+                            <img height="auto" width="45px" src="/images/visa-logo.jpg" alt="Visa Logo">
+                            <img height="auto" width="33px" src="/images/mastercard-logo.png" alt="Mastercard Logo">
+                            <img height="auto" width="30px" src="/images/paypal-logo.png" alt="Paypal Logo">
+                        </div>
+                    </div>
+                    <div class="child-payment">
+                        <h5>Store Locator</h5>
+                        <div class="contactus-container">
+                            <a class="text-contactus" href="#">Corso Vittorio Emanuele 49, Matelica, Italy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+           
+        <!-- Footer Responsive -->
+
+        <section class="footer-resposive">
+            <div class="followus-responsive">
+                <h6>Follow us on</h6>
+                <div class="logo-social2">
+                    <a href="#"><img height="auto" width="36px" src="/images/instagram-logo.png" alt="Instagram Logo"></a>
+                    <a href="#"><img height="auto" width="36px" src="/images/Logo Facebook.png" alt="Facebook Logo"></a>
+                </div>
+            </div>
+            <div class="child-responsive">
+                <h6>Payment Methods</h6>
+                <div class="logo-credit-card-responsive">
+                    <img height="auto" width="50px" src="/images/visa-logo.jpg" alt="Visa Logo"></a>
+                    <img height="auto" width="38px" src="/images/mastercard-logo.png" alt="Mastercard Logo">
+                    <img height="auto" width="35px" src="/images/paypal-logo.png" alt="Paypal Logo">
+                </div>
+            </div>
+            <hr />
+            <div id="costumer-service" class="costumerservice-responsive">
+                <h6>Customer Service</h6>
+                <div id="contact-us" class="contactus-responsive">                        
+                    <a class="text-contactus" href="#">Contact Us</a>
+                    <a class="text-contactus" href="#">Shipping</a>
+                    <a class="text-contactus" href="#">Returns</a>
+                    <a class="text-contactus" href="#">Legal Area</a>
+                    <a class="margin-responsive" href="#">Privacy Policy</a>
+                </div>
+                <div class="arrow-wrapper">
+                    <img class="arrow" id="arrow" width="25px" height="auto" src="/images/arrow-2.png" alt="Arrow Down"/>
+                </div>
+            </div>
+            <hr />
+            <div id="shop-responsive" class="shop-responsive">
+                <h6>Shop</h6>
+                <div id="shop-position-responsive" class="shop-position-responsive">
+                    <a class="text-contactus" href="/page/accessories.html">Accessories</a>
+                    <a class="text-contactus" href="/page/clothing.html">Clothing</a>
+                    <a class="text-contactus" href="/page/bags.html">Bags</a>
+                    <a class="text-contactus" href="/page/shoes.html">Shoes</a>
+                    <a class="margin-responsive" href="/page/new-arrivals.html">New Arrivals</a>
+                </div>
+                <div class="arrow-wrapper2">
+                    <img class="arrow2" id="arrow2" width="25px" height="auto" src="/images/arrow-2.png" alt="Arrow Down"/>
+                </div>
+            </div>
+            <hr />
+            <div class="costumerservice-responsive">
+                <h6>Store Locator</h6>
+                <div class="contactus-container">
+                    <a class="text-contactus" href="#">Corso Vittorio Emanuele 49, Matelica, Italy</a>
+                </div>
+            </div>
+        </section>
+                                
+        <!-- Copyright -->
+
+        <hr class="hr" />
+        <p class="copyright">Copyright© 2020 Tutto Pepe Matelica - All Right Reserved.</p>
+        <div class="opacity-background"></div>
+    </footer>
+            
+    <!-- Hamburger Menu -->
+
+    <div id="menu-background" class="menu-background">
+        <img class="x-logo" id="x-logo" width="40" height="auto" src="/images/x-logo.png" alt="X Logo">
+    </div>
+    <menu id="menu">
+        <div class="ship-responsive">
+            <div class="ship-container2">
+                <p class="ship-text2">Ship to</p>
+                <img class="flag-italy cursor" height="auto" width="20px" src="/images/Italian Flag.png" alt="Italian Flag Icon">
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a class="text-options" href="/index.html">Home</a>
+                </li>
+                <hr />
+                <li>
+                    <p id="accessories-hamburger" class="text-options" href="/page/accessories.html">Accessories</p>
+                    <img id="arrow-hamburger-accessories" src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo">
+                </li>
+                <hr />
+                <li>
+                    <p id="shoes-hamburger" class="text-options" href="/page/shoes.html">Shoes</p>
+                    <img id="arrow-hamburger-shoes" src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr />
+                <li>
+                    <p id="clothing-hamburger" class="text-options" href="/page/clothing.html">Clothing</p>
+                    <img id="arrow-hamburger-clothing" src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo">
+                </li>
+                <hr />
+                <li>
+                    <p id="bags-hamburger" class="text-options" href="/page/bags.html">Bags</p>
+                    <img id="arrow-hamburger-bags" src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo">
+                </li>
+                <hr />
+                <li>
+                    <p id="newarrivals-hamburger" class="text-options" href="/page/new-arrivals.html">New Arrivals</p>
+                    <img id="arrow-hamburger-newarrivals" src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo">
+                </li>
+                <hr />
+            </ul>
+        </nav>
+        <div class="register">
+            <a class="register-text" href="#">Register</a>
+            <a class="register-text" href="#">Log In</a>
+        </div>
+        <div class="search-bar-container search-bar-container1">
+            <div class= "search-bar">
+                <img class="lens-logo cursor" width="20px" height="auto" src="/images/Lens Logo.png" alt="Lens Logo">
+                <input type="text" class="search" id="search" name="search" placeholder="Search"/>
+            </div>
+        </div>
+    </menu>
+
+    <!-- Accessories Hamburger Menu -->
+
+    <div class="menu1" id="menu1">
+        <nav class="menu-accessories-hamburger">
+            <ul class="menu1-container">
+                <li class="menu1-child">
+                    <img id="arrow-accessories-back" class="arrow-accessories" src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo">
+                    <p id="accessories-back" class="text-options text-options-accessories" href="/page/accessories.html">Accessories</p>
+                </li>
+                <hr class="hr-menu1"/>
+                <li class="menu1-child">
+                    <a class="text-options" href="/page/sunglasses.html">Sunglasses</a>
+                    <a href="/page/sunglasses.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr class="hr-menu1"/>
+                <li class="menu1-child">
+                    <a class="text-options" href="/page/belts.html">Belts</a>
+                    <a href="/page/belts.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr class="hr-menu1"/>
+                <li class="menu1-child">
+                    <a class="text-options" href="/page/necklaces.html">Necklaces</a>
+                    <a href="/page/necklaces.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr class="hr-menu1"/>
+                <li class="menu1-child">
+                    <a class="text-options" href="/page/earrings.html">Earrings</a>
+                    <a href="/page/earrings.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr class="hr-menu1"/>
+                <li class="menu1-child">
+                    <a class="text-options" href="/page/bracelets.html">Bracelets</a>
+                    <a href="/page/bracelets.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr class="hr-menu1"/>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Shoes Hamburger Menu -->
+
+    <div class="menu2" id="menu2">
+        <nav class="menu-shoes-hamburger">
+            <ul class="menu2-container">
+                <li class="menu2-child">
+                    <img id="arrow-shoes-back" class="arrow-accessories" src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo">
+                    <p id="shoes-back" class="text-options text-options-accessories" href="/page/shoes.html">Shoes</p>
+                </li>
+                <hr class="hr-menu2"/>
+                <li class="menu2-child">
+                    <a class="text-options" href="/page/sneakers.html">Sneakers</a>
+                    <a href="/page/sneakers.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr class="hr-menu2"/>
+                <li class="menu2-child">
+                    <a class="text-options" href="/page/boots.html">Boots</a>
+                    <a href="/page/boots.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr class="hr-menu2"/>
+                <li class="menu2-child">
+                    <a class="text-options" href="/page/heels.html">Heels</a>
+                    <a href="/page/heels.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr class="hr-menu2"/>
+                <li class="menu2-child">
+                    <a class="text-options" href="/page/espedrillas.html">Espedrillas</a>
+                    <a href="/page/espedrillas.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr class="hr-menu2"/>
+                <li class="menu2-child">
+                    <a class="text-options" href="/page/sliders.html">Sliders</a>
+                    <a href="/page/sliders.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr class="hr-menu2"/>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Clothing Hamburger Menu -->
+
+    <div class="menu3" id="menu3">
+        <nav class="menu-clothing-hamburger">
+            <ul class="menu3-container">
+                <li class="menu3-child">
+                    <img id="arrow-clothing-back" class="arrow-accessories" src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo">
+                    <p id="clothing-back" class="text-options text-options-accessories" href="/page/clothing.html">Clothing</p>
+                </li>
+                <hr class="hr-menu3"/>
+                <li class="menu3-child">
+                    <a class="text-options" href="/page/t-shirt-and-tops.html">T-Shirt & Tops</a>
+                    <a href="/page/t-shirt-and-tops.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr class="hr-menu3"/>
+                <li class="menu3-child">
+                    <a class="text-options" href="/page/dresses.html">Dresses</a>
+                    <a href="/page/dresses.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr class="hr-menu3"/>
+                <li class="menu3-child">
+                    <a class="text-options" href="/page/pants-and-shorts.html">Pants & Shorts</a>
+                    <a href="/page/pants-and-shorts.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr class="hr-menu3"/>
+                <li class="menu3-child">
+                    <a class="text-options" href="/page/skirts.html">Skirts</a>
+                    <a href="/page/skirts.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr class="hr-menu3"/>
+                <li class="menu3-child">
+                    <a class="text-options" href="/page/lingerie.html">Lingerie</a>
+                    <a href="/page/lingerie.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr class="hr-menu3"/>
+                <li class="menu3-child">
+                    <a class="text-options" href="/page/jackets.html">Jackets</a>
+                    <a href="/page/jackets.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr class="hr-menu3"/>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Bags Hamburger Menu -->
+
+    <div class="menu4" id="menu4">
+        <nav class="menu-bags-hamburger">
+            <ul class="menu4-container">
+                <li class="menu4-child">
+                    <img id="arrow-bags-back" class="arrow-accessories" src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo">
+                    <p id="bags-back" class="text-options text-options-accessories" href="/page/bags.html">Bags</p>
+                </li>
+                <hr class="hr-menu4"/>
+                <li class="menu4-child">
+                    <a class="text-options" href="/page/handbags.html">Handbags</a>
+                    <a href="/page/handbags.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr class="hr-menu4"/>
+                <li class="menu4-child">
+                    <a class="text-options" href="/page/clutch.html">Clutch</a>
+                    <a href="/page/clutch.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr class="hr-menu4"/>
+                <li class="menu4-child">
+                    <a class="text-options" href="/page/shoulder-bags.html">Shoulder Bags</a>
+                    <a href="/page/shoulder-bags.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr class="hr-menu4"/>
+                <li class="menu4-child">
+                    <a class="text-options" href="/page/tote-bags.html">Tote Bags</a>
+                    <a href="/page/tote-bags.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr class="hr-menu4"/>
+                <li class="menu4-child">
+                    <a class="text-options" href="/page/mini-bags.html">Mini Bags</a>
+                    <a href="/page/mini-bags.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr class="hr-menu4"/>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- New Arrivals Hamburger Menu -->
+
+    <div class="menu5" id="menu5">
+        <nav class="menu-newarrivals-hamburger">
+            <ul class="menu5-container">
+                <li class="menu5-child">
+                    <img id="arrow-newarrivals-back" class="arrow-accessories" src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo">
+                    <p id="newarrivals-back" class="text-options text-options-accessories" href="/page/new-arrivals.html">New Arrivals</p>
+                </li>
+                <hr class="hr-menu5"/>
+                <li class="menu5-child">
+                    <a class="text-options" href="/page/fall-winter-2021.html">Fall/Winter 2021</a>
+                    <a href="/page/fall-winter-2021.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr class="hr-menu5"/>
+                <li class="menu5-child">
+                    <a class="text-options" href="/page/beachwear.html">Beachwear</a>
+                    <a href="/page/beachwear.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+                <hr class="hr-menu5"/>
+                <li class="menu5-child">
+                    <a class="text-options" href="/page/sale.html">Sale</a>
+                    <a href="/page/sale.html"><img src="/images/arrow.png" height="auto" width="10px" alt="Arrow Logo"></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+    <!-- Banner Subscribe -->
+
+    <div class="banner-subscribe" id="banner-subscribe">
+        <img id="close-banner" src="/images/x-logo-red.png" height="22px" width="auto" alt="X Logo">
+        <p class="text-subscribe">Subscribe and join our community!</p>
+        <p class="sub-text-subscribe">You'll be always updated about our news, events and special offers. Also, you'll receive a welcome gift: <strong>10% off</strong> on your first order.</p>
+        <input class="input-banner" type="text" class="input" id="youremail" name="youremail" placeholder="Your E-mail Address"/>
+        <button class="button2 subscribebutton">Subscribe</button>
+    </div>
+    
+    <!-- Newsletter Window -->
+
+    <div id="newsletter-message" class="newsletter1">
+        <img id="x-logo-newsletter" class="x-logo-newsletter" width="20px" height="auto" src="/images/x-logo.png" alt="X Logo">
+        <div class="window-newsletter">
+            <p class="newsletter2">Subscribe to Our Newsletter</p>
+            <hr />
+            <p class="text-newsletter">From today you will be the first to know all the latest news, exclusive promotions and new arrivals in our online Store.</p>
+            <form name="my-Form" id="application-form" >
+                <fieldset>
+                    <div class="fieldset1">
+                        <label class="label-first-name" for='first-name'>Your Name</label>
+                        <div class="container-name">
+                            <input class="first-name" type="text" id="first-name" name="first-name" placeholder="First" required/>
+                            <input class="second-name" type="text" id="second-name" name="second-name" placeholder="Second" required/>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="fieldset2">
+                        <label class="label-your-email" for='e-mail'>Your E-Mail</label>
+                        <input class="e-mail" type="e-mail" id="e-mail" name="e-mail" placeholder="Your E-mail" required/>
+                    </div>
+                </fieldset>
+                <fieldset class="fieldset3">
+                    <input type="checkbox">
+                    <label>
+                        I have read the <a class="privacy-policy" href="#">Privacy Policy</a>, and I consent to the processing of my personal data for marketing purposes. *
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <div class="fieldset4">
+                        <input class="button-submit" id="submit" type="submit" value="Submit">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+            
+    <!-- Shipping Window -->
+
+    <div id="country-window" class="shipto-banner">
+        <div class="window-shipto">
+            <img id="close-country-window" class="x-logo-shipto-banner" width="17px" height="auto" src="/images/x-logo.png" alt="X Logo">
+            <p class="shipping-country">Select Your Shipping Country</p>
+            <hr class="hr-shipto-banner"/>
+            <div class="country-container">
+                    <div class="first-column">
+                        <div class="country-group">
+                            <div class="flag albania"></div>
+                            <p class="name-country">Albania</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag austria"></div>
+                            <p class="name-country">Austria</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag belgium"></div>
+                            <p class="name-country">Belgium</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag brazil"></div>
+                            <p class="name-country">Brazil</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag bulgaria"></div>
+                            <p class="name-country">Bulgaria</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag croatia"></div>
+                            <p class="name-country">Croatia</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag cyprus"></div>
+                            <p class="name-country">Cyprus</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag czech-republic"></div>
+                            <p class="name-country">Czech Republic</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag denmark"></div>
+                            <p class="name-country">Denmark</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag estonia"></div>
+                            <p class="name-country">Estonia</p>
+                        </div>
+                    </div>
+                    <hr class="divide-column-phone" />
+                    <div class="second-column">
+                        <div class="country-group">
+                            <div class="flag finland"></div>
+                            <p class="name-country">Finland</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag france"></div>
+                            <p class="name-country">France</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag germany"></div>
+                            <p class="name-country">Germany</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag gibalter"></div>
+                            <p class="name-country">Gibalter</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag greece"></div>
+                            <p class="name-country">Greece</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag hungary"></div>
+                            <p class="name-country">Hungary</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag ireland"></div>
+                            <p class="name-country">Ireland</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag italy"></div>
+                            <p class="name-country">Italy</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag japan"></div>
+                            <p class="name-country">Japan</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag latvia"></div>
+                            <p class="name-country">Latvia</p>
+                        </div>
+                    </div>
+                    <hr class="divide-column" />
+                    <div class="third-column">
+                        <div class="country-group">
+                            <div class="flag liechtenstein"></div>
+                            <p class="name-country">Liechtenstein</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag lituania"></div>
+                            <p class="name-country">Lituania</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag luxembourg"></div>
+                            <p class="name-country">Luxembourg</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag malta"></div>
+                            <p class="name-country">Malta</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag monaco"></div>
+                            <p class="name-country">Monaco</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag netherlands"></div>
+                            <p class="name-country">Netherlands</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag norway"></div>
+                            <p class="name-country">Norway</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag poland"></div>
+                            <p class="name-country">Poland</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag portugal"></div>
+                            <p class="name-country">Portugal</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag romania"></div>
+                            <p class="name-country">Romania</p>
+                        </div>
+                    </div>
+                    <hr class="divide-column-phone" />
+                    <div class="fourth-column">
+                        <div class="country-group">
+                            <div class="flag russia"></div>
+                            <p class="name-country">Russia</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag slovakia"></div>
+                            <p class="name-country">Slovakia</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag slovenia"></div>
+                            <p class="name-country">Slovenia</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag spain"></div>
+                            <p class="name-country">Spain</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag sweden"></div>
+                            <p class="name-country">Sweden</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag switzerland"></div>
+                            <p class="name-country">Switzerland</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag turkey"></div>
+                            <p class="name-country">Turkey</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag ukraine"></div>
+                            <p class="name-country">Ukraine</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag united-kingdom"></div>
+                            <p class="name-country">United Kingdom</p>
+                        </div>
+                        <div class="country-group">
+                            <div class="flag united-states"></div>
+                            <p class="name-country">United States</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Javascript Script -->   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/javascript/third-page.js"></script>
+</body>
+</html>
