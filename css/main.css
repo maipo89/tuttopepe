@@ -3558,6 +3558,7 @@ form  {
         font-size: 15px;
         border-bottom: 1px black solid;
         width: 70%;
+        border-radius: 0px;
     }
 
     .search:focus  {
@@ -3847,13 +3848,13 @@ form  {
     }
 
     .banner-subscribe  {
-        height: 340px;
+        height: 400px;
         right: 0;
         width: 100%;
     }
 
     .sub-text-subscribe  {
-        width: 450px;
+        width: 320px;
     }
 
     .fieldset1, .fieldset2  {
@@ -4149,6 +4150,10 @@ form  {
 
     .price  {
         font-size: 22px;
+    }
+
+    .input-banner {
+        border-radius: 0px;
     }
 }
 
